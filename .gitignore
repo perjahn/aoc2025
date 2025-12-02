@@ -6,4 +6,4 @@ input
 input.txt
 input1.txt
 junk
-Program.cs.txt
+Program*.cs*.txt
