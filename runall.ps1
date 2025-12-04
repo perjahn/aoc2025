@@ -12,6 +12,7 @@ foreach ($problem in $problems) {
 
   if (!(Test-Path "example.txt")) {
     Write-Host "No example.txt file." -f Yellow
+    popd
     continue
   }
 
